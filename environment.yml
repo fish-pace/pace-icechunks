@@ -1,0 +1,23 @@
+name: pace-icechunk
+# Example environment for using the icechunk store
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - xarray
+  - dask
+  - zarr
+  - s3fs
+  - h5netcdf
+  - netcdf4
+  - matplotlib
+  - cartopy
+  - hvplot
+  - holoviews
+  - geoviews
+  - datashader
+  - pip
+  - pip:
+      - earthaccess>=0.18
+      - icechunk
+      - virtualizarr
