@@ -5,6 +5,7 @@ This Icechunk repository provides virtual access to NASA PACE OCI Level-3  produ
 There are the following Icechunk stores:
 * `PACE_OCI_L3M_CHL`
 * `PACE_OCI_L3M_RRS`
+* `PACE_OCI_L3M_KD`
 
 Each L3 product has daily, monthly, and 8D at 2 different grids 0p1deg and 4km. The group names are: 
 * `daily/0p1deg` `daily/4km`
