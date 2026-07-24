@@ -1,0 +1,1 @@
+s3://mdl-native-16/native/OCEANCOLOUR_GLO_BGC_L3_MY_009_103/cmems_obs-oc_glo_bgc-plankton_my_l3-multi-4km_P1D_202603/2024/07/20240702_cmems_obs-oc_glo_bgc-plankton_my_l3-multi-4km_P1D.nc
