@@ -1,9 +1,9 @@
-# PACE OCI Level-3 Chlorophyll Icechunk Store
+# PACE OCI Icechunk Stores
 
 This Icechunk repository provides virtual access to NASA PACE OCI Level-3  products for **in-region AWS access**. The data remain in the original NASA S3 bucket and are accessed through virtual references, avoiding duplication while providing a Zarr-compatible interface.
 
 There are the following Icechunk stores:
-* `PACE_OCI_L3M_CHL`
+* `PACE_OCI_L3M_CHL` (note has been changed to `_BGS`)
 * `PACE_OCI_L3M_RRS`
 * `PACE_OCI_L3M_KD`
 
