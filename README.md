@@ -29,6 +29,12 @@ ds = create_ds("PACE_OCI_L3M_RRS", "daily/0p1deg")
 ds
 ```
 Using the function below:
+> **icechunk 1.x will not work.** `icechunk.http_storage` does not exist in icechunk 1.x
+> (it arrived in 2.0). Every icechunk 2.x release needs **Python 3.12 or newer**, so on an
+> older Python `pip install icechunk` quietly installs 1.1.x, and the code below fails with
+> `AttributeError: module 'icechunk' has no attribute 'http_storage'`. Check what you have:
+> `python -c "import icechunk; print(icechunk.__version__)"`.
+
 ```
 import earthaccess
 import icechunk as ic
